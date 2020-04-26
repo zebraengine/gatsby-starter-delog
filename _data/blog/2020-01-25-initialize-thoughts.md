@@ -1,10 +1,10 @@
 ---
-noteId: "8c8a8d203ff111ea8b045bf2c6edd76a"
-tags: []
-title: "Initialize Thoughts"
-date: "2020-01-25"
-featuredImage: "./assets/crossing-symmety-symmetrical-pedestrian.jpg"
-
+template: BlogPost
+path: /2020-01-25-initialize-thoughts
+date: 2020-01-25T07:08:53.137Z
+title: Initialize Thoughts
+thumbnail: /assets/crossing-symmety-symmetrical-pedestrian.jpg
+metaDescription: Gotta start somewhere
 ---
 
 I've taken it upon myself to attempt to keep up with the fast-moving space of computer science and team dynamics. Its kind of impossible to be entirely on the cutting edge without losing perspective on what exactly people need to know to get meaning full work accomplished. Most of the time, simple solutions, some of which involve already proven techniques, can get the job done.
