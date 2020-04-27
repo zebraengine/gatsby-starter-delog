@@ -19,6 +19,14 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "G-95Q05ZCLC1",
+        head: true,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `markdown-pages`,
@@ -42,14 +50,6 @@ module.exports = {
           resolve: 'gatsby-remark-emojis',
         }],
       },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // The property ID; the tracking code won't be generated without it
-        trackingId: "G-95Q05ZCLC1",
-        head: true,
-      }
     },
     `gatsby-plugin-sass`, 
     `gatsby-plugin-react-helmet`,
